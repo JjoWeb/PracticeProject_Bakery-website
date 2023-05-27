@@ -1,0 +1,146 @@
+@media screen and (max-width: 600px) {
+    #header_title {
+        width: 9rem;
+    }
+
+    #header_menu {
+        width: 100%;
+    }
+
+    #header_menu_list {
+       display: block;
+       margin-top: 2.5rem;
+       margin-left: 0rem;
+       background-color: rgba(0, 0, 0, 0);
+    }
+
+    li {
+       width: 9rem;
+       padding: .2rem;
+       list-style-type: none;
+       text-align: center;
+       font-size: 110%;
+    }
+
+    #products_link {
+       margin-bottom: .2rem;
+       line-height: 2rem;
+    }
+
+    #contact_details {
+       right: 0rem;
+       top: 0rem;
+       width: 9.6rem;
+       font-size: 100%;
+       line-height: 180%;
+    }
+
+    #button_top {
+        right: .9rem;
+        bottom: 0%;
+    }
+
+    #intro {
+        height: 40rem;
+    }
+
+    #menu_title {
+        max-width: 50%;
+    }
+
+    .menu_categories_titles {
+        height: 2rem;
+    }
+
+    .menu_categories > p {
+        font-size: 1.5rem;
+    }
+
+    #menu_items {
+        max-width: 100%;
+        max-height: 50rem;
+        border-radius: 0%;
+    }
+
+    .menu_images {
+        max-width: 80%;
+        margin-left: 0.6rem;
+    }
+
+    .menu_prices {
+        margin: 1% 0% 10% 0%;
+     }
+
+    #ingredients_title {
+        writing-mode: vertical-lr;
+        margin-left: 0rem;
+    }
+
+    #ingredients_grid {
+        display: block;
+        align-content: center;
+    }
+
+    .ingredients_images {
+        width: 50%;
+        padding: none;
+    }
+
+    .ingredients_p {
+        padding: none;
+        font-size: small;
+    }
+
+    #gallery_title {
+        max-width: 50%;
+    }
+
+    .gallery_image {
+        height: 14rem;
+    }
+
+    #footer {
+        display: flex;
+        flex-flow: row wrap;
+        color: white;
+        background-color: black;
+        margin-top: 5%;
+        border-bottom: 5px double white;
+    }
+
+    #footer_contact {
+        display: none;
+    }
+
+    #footer_middle {
+        width: 5.4rem;
+    }
+
+    #footer_logo > h3 {
+        margin-left: -1.7rem;
+    }
+
+    #copyright {
+        text-align: center;
+        padding-top: 8%;
+        margin-right: -16rem;
+        color: white;
+    }
+
+    #footer_social {
+        width: 10%;
+        display: block;
+        justify-content: space-around;
+        margin-right: 1rem;
+    }
+
+    .social_icons {
+        width: 10%;
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    .social_tooltips {
+        display: none;
+    }
+}

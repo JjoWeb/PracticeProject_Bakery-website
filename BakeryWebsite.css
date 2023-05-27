@@ -1,0 +1,404 @@
+#header {
+   display: inline-flex;
+   width: 100%;
+   margin-top: -0.6%;
+}
+
+#header_title {
+   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+   width: 35%;
+   text-align: center;
+   color: white;
+   background-color: black;
+   border: 5px double white;
+}
+
+#header_menu {
+   width: 54%;
+}
+
+#header_menu_list {
+   display: flex;
+   justify-content: space-evenly;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+li {
+   min-width: 15%;
+   padding: 10px;
+   border: 5px double black;
+   list-style-type: none;
+   text-align: center;
+   font-size: 110%;
+   color: black;
+   background-color: white;
+}
+
+li > a:link {
+   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+   color: black;
+   text-decoration: none;
+}
+
+li:hover {
+   background-color: black;
+   border: 5px double white;
+   transform: scale(1.2, 1.2);
+}
+
+li:hover a {
+   color: white;
+}
+
+#contact_details {
+   position: fixed;
+   right: 0%;
+   top: 2.2%;
+   width: 10.1%;
+   border: 5px double white;
+   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+   text-align: center;
+   font-size: 105%;
+   line-height: 220%;
+   color: white;
+   background-color: black;
+}
+
+#contact_details:hover {
+   color: black;
+   background-color: white;
+   border: 5px double black;
+   transform: scale(1.2, 1.2);
+}
+
+#button_top {
+   position: fixed;
+   right: 2.5%;
+   bottom: 0%;
+   padding: 0.4%;
+   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+   font-size: 110%;
+   background-color: white;
+   border: 5px double black;
+   border-radius: 50%;
+}
+
+#button_top > a:link {
+   text-decoration: none;
+   color: black;
+}
+
+#button_top:hover {
+   background-color: black;
+   border: 5px double white;
+   transform: scale(1.2, 1.2);
+}
+
+#button_top:hover a {
+   color: white;
+}
+
+.titles {
+   color: white;
+}
+
+#intro {
+   height: 40rem;
+   background-image: url(docs/assets/intro_background1.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+#intro_text {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   max-width: 80%;
+   margin: auto;
+   color: white;
+   line-height: 200%;
+   text-align: center;
+   text-shadow: black 1px 1px 5px;
+}
+
+#intro_h2 {
+   flex: 1;
+   max-width: 25%;
+   transform: translateX(-40%);
+   transition: border-right 1s, border-radius 1s, transform 1s;
+   padding: 1rem;
+   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+   font-size: 170%;
+   letter-spacing: 1px;
+   background-color: rgba(0, 0, 0, 0.6);
+   border: 3px solid white;
+   border-radius: 20px;
+}
+
+#intro_p {
+   transform: rotateY(90deg);
+   flex: 2;
+   padding: 1.5rem;
+   font-size: 130%;
+   font-style: italic;
+   background-color: rgba(0, 0, 0, 0.6);
+   max-height: 90%;
+   overflow-y: auto;
+   scrollbar-color: gray black;
+   scrollbar-width: thin;
+   border: 3px solid white;
+   border-radius: 20px;
+}
+
+#intro:hover #intro_h2 {
+   transform: translateX(0%);
+   border: 3px solid white;
+   border-right: none;
+   border-radius: 20px 0px 0px 20px;
+   transition: border-radius 1s, transform 1s;
+}
+
+#intro:hover #intro_p {
+   transform: scale(1, 1);
+   transition: transform 1s;
+}
+
+#menu_title {
+   max-width: 20%;
+   margin: auto;
+   margin-top: 5%;
+   padding: 2% 1% 1.5% 1%;
+   border: 5px double white;
+   border-bottom: none;
+   border-radius: 50% 50% 0% 0%;
+   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+   font-size: 200%;
+   text-align: center;
+   letter-spacing: 1px;
+   background-color: black;
+}
+
+#menu_items {
+   display: flex;
+   justify-content: space-around;
+   max-width: 80%;
+   max-height: 50rem;
+   margin: auto;
+   color: white;
+   background-color: black;
+   border-top: 5px double white;
+   border-radius: 15% 15% 0% 0%;
+}
+
+#menu_stars,
+#menu_new,
+#menu_gluten {
+   color: white;
+   max-width: 15rem;
+   max-height: 85%;
+   overflow: scroll;
+   overflow-x: hidden;
+   scrollbar-color: gray black;
+}
+
+.menu_categories > p {
+   text-align: center;
+   font-size: 140%;
+   font-weight: bold;
+   border-top: 5px double white;
+   border-radius: 50% 50% 0% 0%;
+}
+
+.menu_images {
+   max-width: 100%;
+}
+
+.menu_images:hover {
+   transform: scale(1.25, 1.25);
+   transition: transform 1s;
+}
+
+.menu_descriptions {
+   font-size: 120%;
+   margin: 0%;
+   padding-left: 2%;
+}
+
+.menu_prices {
+   font-size: 150%;
+   text-align: right;
+   margin: -10% 0% 10% 0%;
+   padding-right: 2%;
+   border: 3px solid gray;
+   border-top: none;
+   border-radius: 0% 0% 20% 20%;
+}
+
+#ingredients {
+   display: flex;
+   align-items: center;
+   text-align: center;
+   max-width: 75%;
+   margin: auto;
+   background-image: url(docs/assets/page_background2.jpg);
+   background-size: cover;
+   border-radius: 0% 0% 20% 20%;
+}
+
+#ingredients > h2 {
+   max-width: 20%;
+   border: 5px solid lightgray;
+   border-left: none;
+   border-radius: 0% 45% 45% 0%;
+   text-shadow: black 1px 1px 10px;
+   background-color: rgb(255, 206, 138);
+}
+
+#ingredients_grid {
+   display: grid;
+   grid-template-rows: repeat(2, 1fr);
+   grid-template-columns: repeat(3, 1fr);
+   max-width: 75%;
+   max-height: 100%;
+   align-content: center;
+}
+
+#ingredients_grid > div {
+   margin: auto;
+   padding: 0.8rem;
+   border-radius: 50%;
+   background-color: rgba(255, 206, 138, 0.7);
+}
+
+.ingredients_p {
+   padding: 1.3%;
+   text-shadow: white 1px 1px 10px;
+}
+
+.ingredients_images {
+   width: 80%;
+   padding: 0%;
+   border-radius: 50%;
+}
+
+#gallery {
+   height: 105%;
+   width: 95%;
+   margin: auto;
+   margin-top: 5%;
+   background-color: black;
+}
+
+#gallery_title {
+   max-width: 20%;
+   margin: auto;
+   padding-top: 2%;
+   font-size: 200%;
+   text-align: center;
+   letter-spacing: 1px;
+   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+   background-color: black;
+}
+
+#gallery_images {
+   display: flex;
+   width: 95%;
+   height: 70%;
+   margin: auto;
+   padding-bottom: 5%;
+   overflow-x: scroll;
+   scroll-behavior: smooth;
+   scrollbar-color: white black;
+}
+
+.gallery_image {
+   height: 20rem;
+   margin: 7% 2% 0% 2%;
+   padding: 2%;
+   border: 3px solid white;
+   background-color: black;
+}
+
+.gallery_image:hover {
+   transform: scale(1.3, 1.3);
+   transition: transform 1s;
+}
+
+#footer {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+   align-items: center;
+   color: white;
+   background-color: black;
+   margin-top: 5%;
+
+   border-bottom: 5px double white;
+}
+
+#footer_contact {
+   display: inline-flex;
+   justify-content: space-around;
+   align-items: center;
+   max-width: 30%;
+   padding: 2%;
+   text-align: center;
+   line-height: 170%;
+}
+
+#footer_middle {
+   align-self: flex-end;
+   width: 30%;
+}
+
+#footer_logo {
+   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+   font-size: 120%;
+   text-align: center;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   border: 5px double white;
+}
+
+#copyright {
+   text-align: center;
+   padding-top: 8%;
+   color: white;
+}
+
+#footer_social {
+   width: 30%;
+   display: inline-flex;
+   justify-content: space-around;
+}
+
+.social_icons {
+   width: 20%;
+   text-align: center;
+}
+
+.social_icons > a {
+   margin-top: 50%;
+   padding: 20%;
+   font-size: 200%;
+   text-decoration: none;
+   color: white;
+}
+
+.social_icons:hover > a {
+   color: black;
+   background-color: white;
+}
+
+.tooltip_text {
+   visibility: hidden;
+   margin-bottom: 0%;
+   text-align: center;
+   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+   color: white;
+}
+
+.social_icons:hover .tooltip_text {
+   visibility: visible;
+}
